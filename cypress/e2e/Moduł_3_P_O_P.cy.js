@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 import HomePage from "../Pages/HomePage";
 
-describe("Homework - 3", () => {
+describe("Homework - 6 / actions test", () => {
   let homePage;
 
   before(() => {

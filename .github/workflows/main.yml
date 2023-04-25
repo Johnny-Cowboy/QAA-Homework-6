@@ -1,4 +1,4 @@
-name: Homwork-6
+name: Homework-6
 on: push
 jobs:
   chrome:
