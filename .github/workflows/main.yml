@@ -1,0 +1,11 @@
+name: Homwork-6
+on: push
+jobs:
+  chrome:
+    runs-on: ubuntu-22.04
+    name: Chrome Test
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cypress-io/github-action@v5
+        with:
+          browser: chrome
